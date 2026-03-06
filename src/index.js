@@ -1,11 +1,13 @@
 import express from 'express';
-import 'dotenv/config'
-import UsuariosRouter from './routes/usuarios.routes.js';
+import 'dotenv/config';
+import usersRouter from './routes/users.routes.js';
 
 const app = express();
 
 app.use(express.json());
 
-app.use(UsuariosRouter);
+app.use('/usuarios', usersRouter);
 
-app.listen(process.env.PORT);
+app.listen(process.env.PORT || 3000, () => {
+    console.log(`Servidor rodando na porta ${process.env.PORT || 3000}`);
+});
