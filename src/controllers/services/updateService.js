@@ -1,4 +1,4 @@
-import connect from "../../config/connection";
+import connect from "../../config/connection.js";
 
 export const updateService = async (req, res) => {
   try {

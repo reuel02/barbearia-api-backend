@@ -17,7 +17,7 @@ export const insertService = async (req, res) => {
 
     return res
       .status(201)
-      .json({ message: "Serviço criado com sucesso", insert });
+      .json({ message: "Serviço criado com sucesso", servico: insert.rows[0] });
   } catch (error) {
     return res.status(500).json({ error: error.message });
   }
