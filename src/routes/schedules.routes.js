@@ -7,8 +7,8 @@ import { updateSchedules } from "../controllers/schedules/updateSchedules.js";
 const schedulesRouter = Router();
 
 schedulesRouter.post("/inserir/:id", insertSchedules);
-schedulesRouter.delete("/remover/:id", removeSchedules)
+schedulesRouter.delete("/remover/:id", removeSchedules);
 schedulesRouter.get("/listar", listSchedules);
-schedulesRouter.patch("/atualizar/:id", updateSchedules)
+schedulesRouter.patch("/atualizar/:id", updateSchedules);
 
 export default schedulesRouter;
