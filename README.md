@@ -24,12 +24,12 @@ Para rodar este projeto na sua máquina, siga os passos abaixo:
     npm install
 
 3. Crie um arquivo `.env` na raiz do projeto e configure suas credenciais de banco de dados (use o `.env.example` como base):
-    PORT=3000
-    PGUSER=seu_user_postgres
-    PGHOST=localhost
-    PGDATABASE=seu_bancodedados_postgres
-    PGPASSWORD=sua_senha_postgres
-    JWT_SECRETKEY=sua_chave_secreta_jwt
+  * PORT=3000
+  * PGUSER=seu_user_postgres
+  * PGHOST=localhost
+  * PGDATABASE=seu_bancodedados_postgres
+  * PGPASSWORD=sua_senha_postgres
+  * JWT_SECRETKEY=sua_chave_secreta_jwt
 
 4. Inicie o servidor em modo de desenvolvimento:
     npm run dev
