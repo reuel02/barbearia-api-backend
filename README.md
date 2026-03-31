@@ -9,7 +9,7 @@ O sistema foi construído com foco em performance e arquitetura limpa, utilizand
 * **Node.js & Express** - Motor da API e roteamento.
 * **PostgreSQL & pg** - Banco de dados relacional para persistência de dados.
 * **Bcrypt** - Segurança e criptografia de senhas (Hash).
-* **JWT** - Autenticação de usuário e admnistrador.
+* **JWT** - Autenticação de usuário e administrador.
 * **Dotenv** - Proteção de credenciais e gerenciamento de variáveis de ambiente.
 
 ## ⚙️ Como Rodar Localmente
