@@ -1,4 +1,4 @@
-import connect from "../../config/connection";
+import connect from "../../config/connection.js";
 
 export const removeSchedules = async (req, res) => {
   const { id } = req.params;
